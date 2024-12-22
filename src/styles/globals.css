@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: rgba(33, 37, 41, 1); /* #212529 */
+  --foreground: rgba(248, 249, 250, 1); /* #F8F9FA */
+  --primary: rgba(73, 80, 87, 1); /* #495057 */
+  --secondary: rgba(108, 117, 125, 1); /* #6C757D */
+  --accent: rgba(10, 178, 159, 1); /* #0AB29F */
+  --shadow: rgba(233, 236, 239, 0.25); /* #E9ECEF 25% opacity */
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
