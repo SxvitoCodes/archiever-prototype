@@ -12,7 +12,7 @@ Achiever is a web app where you type in your goals, and AI generates a step-by-s
 
 ## Demo
 
-Check out the live demo here: [Insert Demo Link Here]
+Check out the live demo : [[here](https://achiever-demo.vercel.app/)]
 
 ##  Feedback
 Have ideas or found a bug? Let me know!
